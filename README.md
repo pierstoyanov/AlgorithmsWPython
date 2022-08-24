@@ -1,6 +1,6 @@
 
 # SoftUni Algorithms with Python
-This repo contains labs, excercise solutions and exams for:
+This repo contains labs, excercise and exam solutions for:
 Algorithms with Python - юли 2022
 
 ## Structure

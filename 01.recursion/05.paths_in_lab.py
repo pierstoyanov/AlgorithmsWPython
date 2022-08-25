@@ -6,9 +6,9 @@ def find_all_paths(row, col, lab, direction, path):
         return
     if lab[row][col] == 'v':
         return
-    
+
     path.append(direction)
-    
+
     if lab[row][col] == 'e':
         print("".join(path))
     else:
@@ -21,6 +21,7 @@ def find_all_paths(row, col, lab, direction, path):
         lab[row][col] = '-'
 
     path.pop()
+
 
 rows, cols = int(input()), int(input())
 
